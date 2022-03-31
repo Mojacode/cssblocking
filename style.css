@@ -1,50 +1,100 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.one{
-    width: 980px;
-    height: 200px;
-    margin: 10px auto;
-    background-color: black;
+
+.one {
+  width: 980px;
+  height: 200px;
+  margin: 10px auto;
+  background-color: blue;
+}
+
+.center {
+  text-align: center;
+  line-height: 200px;
+}
+
+.center2 {
+  text-align: center;
+  line-height: 600px;
+}
+
+.three > h1{
+  text-align: center;
+  line-height: 300px;
+}
+
+.littlemama h1 {
+  text-align: center;
+  line-height: 300px;
 }
 
 .bigmama {
-    width: 980px;
-    height: auto;
-    margin: 0 auto;
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
 }
 
-.two{
-    width: 200px;
-    height: 600px;
-    background-color: pink;
-    display: inline-block;
-}
-.littledaddy{
-    width: 580px;
-    height: 600px;
-    display: inline-block;
-    vertical-align: top;
-}
-.three{
-    width: 580px;
-    height: 300px;
-    background-color: blueviolet;
-    display: inline-block;
-    vertical-align: top;
+.two {
+  width: 200px;
+  height: 600px;
+  background-color: pink;
+  display: inline-block;
 }
 
-.littlemama{
-    width: 580px;
-    height: 290px;
-    background-color: chartreuse;
-    flex-direction: row;
+.littledaddy {
+  width: 580px;
+  height: 600px;
+  margin: 0px 5px 0px 5px;
+  display: inline-block;
+  vertical-align: top;
 }
 
-.six{
-    width: 180px;
-    height: 600px;
-    background-color: pink;
-    vertical-align: top;
-    float: right;
+.three {
+  width: 580px;
+  height: 300px;
+  background-color: blueviolet;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 0px 10px 0px;
+}
+
+.littlemama {
+  width: 580px;
+  height: 290px;
+  background-color: black;
+
+  vertical-align: top;
+}
+
+.four {
+  width: 280px;
+  height: 290px;
+  background-color: red;
+  display: inline-block;
+  margin: 0px 0px 0px 5px;
+}
+
+.five {
+  width: 280px;
+  height: 290px;
+  background-color: blue;
+  display: inline-block;
+  margin: 0px 5px 0px 0px;
+  float: right;
+}
+
+.six {
+  width: 180px;
+  height: 600px;
+  background-color: pink;
+  vertical-align: top;
+  float: right;
+}
+
+.seven {
+  width: 980px;
+  height: 200px;
+  margin: 10px auto;
+  background-color: lightblue;
 }
